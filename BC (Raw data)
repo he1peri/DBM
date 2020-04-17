@@ -1,0 +1,428 @@
+{
+  "name": "?bc",
+  "permissions": "NONE",
+  "restriction": "1",
+  "_id": "VMeCk",
+  "actions": [
+    {
+      "message": "0",
+      "varName": "Last-message",
+      "info": "3",
+      "storage": "1",
+      "varName2": "Author",
+      "name": "Store Message Info"
+    },
+    {
+      "storage": "0",
+      "varName": "",
+      "name": "Delete Message"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "**What title is going to be?**\nYou have \"** 10 seconds **\" to type",
+      "storage": "1",
+      "varName2": "Title-BotMessage",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Send Message"
+    },
+    {
+      "time": "5",
+      "measurement": "1",
+      "name": "Wait"
+    },
+    {
+      "storage": "1",
+      "varName": "Title-BotMessage",
+      "message": "**What title is going to be?**\nYou have \"** 5 seconds **\" to type ",
+      "storage2": "1",
+      "varName2": "",
+      "name": "Edit Message"
+    },
+    {
+      "time": "2",
+      "measurement": "1",
+      "name": "Wait"
+    },
+    {
+      "storage": "1",
+      "varName": "Title-BotMessage",
+      "message": "**What title is going to be?**\nYou have \"** 3 seconds **\" to type",
+      "storage2": "1",
+      "varName2": "",
+      "name": "Edit Message"
+    },
+    {
+      "time": "3",
+      "measurement": "1",
+      "name": "Wait"
+    },
+    {
+      "storage": "1",
+      "varName": "Title-BotMessage",
+      "name": "Delete Message"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "info": "4",
+      "storage": "1",
+      "varName2": "Title-Message",
+      "name": "Store Channel Info"
+    },
+    {
+      "message": "1",
+      "varName": "Title-Message",
+      "info": "2",
+      "storage": "1",
+      "varName2": "Title-Text",
+      "name": "Store Message Info"
+    },
+    {
+      "storage": "1",
+      "varName": "Title-Message",
+      "name": "Delete Message"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "**And what becomes a description?**\nYou have \"**30 Seconds**\" to type Description",
+      "storage": "1",
+      "varName2": "Description-Botmessage",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Send Message"
+    },
+    {
+      "time": "15",
+      "measurement": "1",
+      "name": "Wait"
+    },
+    {
+      "storage": "1",
+      "varName": "Description-Botmessage",
+      "message": "**And what becomes a description?**\nYou have \"**15 Seconds**\" to type Description",
+      "storage2": "1",
+      "varName2": "",
+      "name": "Edit Message"
+    },
+    {
+      "time": "10",
+      "measurement": "1",
+      "name": "Wait"
+    },
+    {
+      "storage": "1",
+      "varName": "Description-Botmessage",
+      "message": "**And what becomes a description?**\nYou have \"**5 Seconds**\" to type Description",
+      "storage2": "1",
+      "varName2": "",
+      "name": "Edit Message"
+    },
+    {
+      "time": "2",
+      "measurement": "1",
+      "name": "Wait"
+    },
+    {
+      "storage": "1",
+      "varName": "Description-Botmessage",
+      "message": "**And what becomes a description?**\nYou have \"**3 Seconds**\" to type Description",
+      "storage2": "1",
+      "varName2": "",
+      "name": "Edit Message"
+    },
+    {
+      "time": "3",
+      "measurement": "1",
+      "name": "Wait"
+    },
+    {
+      "storage": "1",
+      "varName": "Description-Botmessage",
+      "name": "Delete Message"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "info": "4",
+      "storage": "1",
+      "varName2": "Description-message",
+      "name": "Store Channel Info"
+    },
+    {
+      "message": "1",
+      "varName": "Description-message",
+      "info": "2",
+      "storage": "1",
+      "varName2": "Description-text",
+      "name": "Store Message Info"
+    },
+    {
+      "storage": "1",
+      "varName": "Description-message",
+      "name": "Delete Message"
+    },
+    {
+      "time": "1",
+      "measurement": "0",
+      "name": "Wait"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "**What about BroadCast color?**\nYou have \"**10 Seconds**\" to type color\n\nColors: **Black**, **White**, **Red** or **Blue**",
+      "storage": "1",
+      "varName2": "Color-Botmessage",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Send Message"
+    },
+    {
+      "time": "5",
+      "measurement": "1",
+      "name": "Wait"
+    },
+    {
+      "storage": "1",
+      "varName": "Color-Botmessage",
+      "message": "**What about BroadCast color?**\nYou have \"**5 Seconds**\" to type color\n\nColors: **Black**, **White**, **Red** or **Blue**",
+      "storage2": "1",
+      "varName2": "",
+      "name": "Edit Message"
+    },
+    {
+      "time": "5",
+      "measurement": "1",
+      "name": "Wait"
+    },
+    {
+      "storage": "1",
+      "varName": "Color-Botmessage",
+      "name": "Delete Message"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "info": "4",
+      "storage": "1",
+      "varName2": "Color-Message",
+      "name": "Store Channel Info"
+    },
+    {
+      "message": "1",
+      "varName": "Color-Message",
+      "info": "2",
+      "storage": "1",
+      "varName2": "Color-text",
+      "name": "Store Message Info"
+    },
+    {
+      "time": "1",
+      "measurement": "0",
+      "name": "Wait"
+    },
+    {
+      "time": "1",
+      "measurement": "0",
+      "name": "Wait"
+    },
+    {
+      "storage": "1",
+      "varName": "Color-text",
+      "comparison": "6",
+      "value": "(Black)",
+      "iftrue": "0",
+      "iftrueVal": "",
+      "iffalse": "2",
+      "iffalseVal": "38",
+      "name": "Check Variable"
+    },
+    {
+      "title": "${tempVars(\"Title-Text\")}",
+      "author": "BroadCast",
+      "color": "",
+      "url": "",
+      "authorIcon": "",
+      "authorUrl": "",
+      "imageUrl": "",
+      "thumbUrl": "",
+      "timestamp": "false",
+      "debug": "false",
+      "text": "",
+      "year": "",
+      "month": "",
+      "day": "",
+      "hour": "",
+      "minute": "",
+      "second": "",
+      "storage": "1",
+      "varName": "BC-Message",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "Color-text",
+      "comparison": "6",
+      "value": "(black)",
+      "iftrue": "0",
+      "iftrueVal": "",
+      "iffalse": "2",
+      "iffalseVal": "38",
+      "name": "Check Variable"
+    },
+    {
+      "storage": "1",
+      "varName": "Color-text",
+      "comparison": "6",
+      "value": "(White)",
+      "iftrue": "0",
+      "iftrueVal": "",
+      "iffalse": "2",
+      "iffalseVal": "41",
+      "name": "Check Variable"
+    },
+    {
+      "title": "${tempVars(\"Title-Text\")}",
+      "author": "BroadCast",
+      "color": "#F2ECEC",
+      "url": "",
+      "authorIcon": "",
+      "authorUrl": "",
+      "imageUrl": "",
+      "thumbUrl": "",
+      "timestamp": "false",
+      "debug": "false",
+      "text": "",
+      "year": "",
+      "month": "",
+      "day": "",
+      "hour": "",
+      "minute": "",
+      "second": "",
+      "storage": "1",
+      "varName": "BC-Message",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "Color-text",
+      "comparison": "6",
+      "value": "(White)",
+      "iftrue": "0",
+      "iftrueVal": "",
+      "iffalse": "2",
+      "iffalseVal": "41",
+      "name": "Check Variable"
+    },
+    {
+      "storage": "1",
+      "varName": "Color-text",
+      "comparison": "6",
+      "value": "(red)",
+      "iftrue": "0",
+      "iftrueVal": "",
+      "iffalse": "2",
+      "iffalseVal": "44",
+      "name": "Check Variable"
+    },
+    {
+      "title": "${tempVars(\"Title-Text\")}",
+      "author": "BroadCast",
+      "color": "#FF0000",
+      "url": "",
+      "authorIcon": "",
+      "authorUrl": "",
+      "imageUrl": "",
+      "thumbUrl": "",
+      "timestamp": "false",
+      "debug": "false",
+      "text": "",
+      "year": "",
+      "month": "",
+      "day": "",
+      "hour": "",
+      "minute": "",
+      "second": "",
+      "storage": "1",
+      "varName": "BC-Message",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "Color-text",
+      "comparison": "6",
+      "value": "(red)",
+      "iftrue": "0",
+      "iftrueVal": "",
+      "iffalse": "2",
+      "iffalseVal": "44",
+      "name": "Check Variable"
+    },
+    {
+      "storage": "1",
+      "varName": "Color-text",
+      "comparison": "6",
+      "value": "(blue)",
+      "iftrue": "0",
+      "iftrueVal": "",
+      "iffalse": "2",
+      "iffalseVal": "46",
+      "name": "Check Variable"
+    },
+    {
+      "title": "${tempVars(\"Title-Text\")}",
+      "author": "BroadCast",
+      "color": "#554AFF",
+      "url": "",
+      "authorIcon": "",
+      "authorUrl": "",
+      "imageUrl": "",
+      "thumbUrl": "",
+      "timestamp": "false",
+      "debug": "false",
+      "text": "",
+      "year": "",
+      "month": "",
+      "day": "",
+      "hour": "",
+      "minute": "",
+      "second": "",
+      "storage": "1",
+      "varName": "BC-Message",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "Color-Message",
+      "name": "Delete Message"
+    },
+    {
+      "storage": "1",
+      "varName": "BC-Message",
+      "message": "${tempVars(\"Description-text\")}",
+      "name": "Set Embed Description"
+    },
+    {
+      "storage": "1",
+      "varName": "BC-Message",
+      "fieldName": "",
+      "message": "By: ${tempVars(\"Author\")}",
+      "inline": "1",
+      "name": "Add Embed Field"
+    },
+    {
+      "storage": "1",
+      "varName": "BC-Message",
+      "channel": "0",
+      "varName2": "",
+      "storage3": "0",
+      "varName3": "",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "messageContent": "",
+      "name": "Send Embed Message"
+    }
+  ]
+}
